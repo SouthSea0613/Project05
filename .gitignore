@@ -1,0 +1,61 @@
+# ===================================================================
+# General / OS / Editor
+# ===================================================================
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor specific
+*.swp
+*.bak
+*.tmp
+
+# ===================================================================
+# Visual Studio / ASP.NET Core
+# ===================================================================
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache files
+.vs/
+
+# Rider IDE specific
+.idea/
+
+# Secrets and environment-specific settings
+# (중요!) 개발용 DB 연결 문자열 등 민감 정보가 포함될 수 있으므로 커밋하지 않습니다.
+appsettings.Development.json
+secrets.json
+
+# Log files
+*.log
+
+# ===================================================================
+# Angular / Node.js
+# ===================================================================
+# Dependencies (가장 중요!)
+# 수천 개의 파일이 있으며 'npm install'로 언제든 재생성 가능합니다.
+node_modules/
+
+# Transpiled JavaScript, CSS, assets, etc.
+# 'ng build'로 생성되는 빌드 결과물입니다.
+dist/
+.angular/
+
+# Temporary files
+tmp/
+
+# Log files
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+
+# Test reports
+coverage/
