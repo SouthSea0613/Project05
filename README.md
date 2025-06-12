@@ -1,1 +1,1 @@
-asp.NET Core + Angular + MSSQL
+asp.NET + Swagger + Angular + MSSQL
